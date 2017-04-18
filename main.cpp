@@ -12,9 +12,10 @@ int main(int argc, char *argv[])
 
     for(int i = 0; i < 5; ++i)
      {
-         for(int j = 0; j < 5; ++j)
+         for(int j = 0; j < 3; ++j)
          {
-           cout << "i / j : %d / $d" << i << j << endl;
+           cout << "i / j : " << i << j << endl;
+           cout << "test" << endl;
          }
      }
 
