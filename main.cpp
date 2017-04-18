@@ -12,19 +12,10 @@ int main(int argc, char *argv[])
 
     for(int i = 0; i < 5; ++i)
      {
-         cout << i << "       boucle 1 (begin)" << endl;
-         cout << "     " << endl;
-
          for(int j = 0; j < 5; ++j)
          {
-             cout << "boucle 2 (begin) " << j << endl;
-             if(i == 3)
-                 break;
-
-             cout << "boucle 2 (end) " << j << endl;
+           cout << "i / j : %d / $d" << i << j << endl;
          }
-         cout << i << "       boucle 1 (end)" << endl;
-         cout << "     " << endl;
      }
 
 //    for(int i = 0; i < 10; ++i)
